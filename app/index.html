@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI测试</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MBTI人格测试</h1>
+        <div id="chat-container">
+            <!-- 聊天消息将在这里动态添加 -->
+        </div>
+        <div id="input-container">
+            <input type="text" id="user-input" placeholder="请输入您的回答...">
+            <button id="send-btn">发送</button>
+        </div>
+        <div id="result-container" style="display: none;">
+            <h2>您的MBTI类型是：</h2>
+            <p id="mbti-result"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

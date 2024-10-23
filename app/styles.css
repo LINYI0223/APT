@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+#chat-container {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ai-message {
+    background-color: #e1f5fe;
+    align-self: flex-start;
+}
+
+.user-message {
+    background-color: #e8f5e9;
+    text-align: right;
+}
+
+#input-container {
+    display: flex;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#send-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+.section {
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.question-box {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.loading {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-box {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* 新增样式，使文本框居中 */
+#questionSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    height: 100vh; /* 使其占满整个视口高度 */
+}
+
+#answerInput {
+    width: 80%; /* 设置输入框宽度 */
+    padding: 10px; /* 添加内边距 */
+    margin: 10px 0; /* 添加上下边距 */
+    border: 1px solid #ccc; /* 边框样式 */
+    border-radius: 5px; /* 圆角 */
+}
